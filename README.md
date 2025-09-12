@@ -1,2 +1,2 @@
-# Flappy_Bird
-Flappy Bird game
+# Flappy_Birb
+Flappy Bird (birb) game
