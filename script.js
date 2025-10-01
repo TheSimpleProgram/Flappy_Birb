@@ -190,3 +190,4 @@ document.addEventListener('DOMContentLoaded', () => {
     endScreen.classList.add('hidden');
     drawInitialScreen();
 });
+
