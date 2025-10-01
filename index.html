@@ -10,15 +10,29 @@
     <h1>Flappy Birb</h1>
     <div id="game-container">
         <canvas id="game-canvas" width="400" height="600"></canvas>
+        <div id="home-screen">
+            <h2>Welcome to Flappy Birb!</h2>
+            <p>Choose your bird to start:</p>
+            <div id="bird-select">
+                <div class="bird-option selected" data-bird="default">
+            
+                    <canvas class="bird-preview" width="40" height="40"></canvas>
+                    <span>Birb</span>
+                </div>
+                <div class="bird-option" data-bird="image">
+                    <img class="bird-preview-img" src="https://static.wikia.nocookie.net/angrybirds/images/f/fa/TerenceABClassic.png/revision/latest?cb=20250203201739" alt="Terrece" width="40" height="40">
+                    <span>Terrece</span>
+                </div>
+            </div>
+            <button id="start-button">Start Game</button>
+        </div>
         <div id="end-screen" class="hidden">
             <h2>Game Over</h2>
             <p>Your Score: <span id="final-score">0</span></p>
             <button id="restart-button">Play Again</button>
         </div>
     </div>
-    <p id="instructions">Press Spacebar to Start and Jump</p>
+    <p id="instructions">Press Spacebar to Start and Jump. Make sure to click play again after each round.</p>
     <script src="script.js"></script>
 </body>
 </html>
-
-
