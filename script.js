@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
    
     let selectedBird = 'default'; 
     let birdImg = new Image();
-    birdImg.src = 'https://static.wikia.nocookie.net/angrybirds/images/f/fa/TerenceABClassic.png/revision/latest?cb=20250203201739'; 
+    birdImg.src = './terr.jpg'; 
 
 
     let birdX = 50, birdY = 250, birdVelocity = 0;
